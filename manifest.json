@@ -1,0 +1,23 @@
+{
+    "name": "1K4 PWA Prototype",
+    "short_name": "1K4 PWA",
+    "start_url": ".",
+    "background_color": "blue",
+    "theme_color": "red",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+    
+}

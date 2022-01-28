@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(190,190,190);
+}
+
+.wrapper{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    margin-top: 1.5%;
+    background: rgb(160,160,160);
+    padding: 2%;
+    border: 5px solid rgb(60,60,60);
+    font-style: italic;
+    min-height: 50em
+}
+.paragraphs{
+    margin-top: 1%;
+    width: 90%;
+    margin: auto;
+    background: cyan;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: 1.25em;
+    
+}
+
+.subheading{
+    width: 90%;
+    margin: auto;
+    background: orange;
+    border: solid 10px black;
+    border-radius: 1em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+label{
+    color: orange;
+    width: 30%;
+    margin: auto;
+    font-size: 1.5em;
+    display: inline-block;
+    background: rgb(60,60,60);
+    margin-top: 1%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+input{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    background: cyan;
+    margin-top: 0.5%;
+    font-size: 1.5em;
+}
+
+button{
+    margin-top: 1%;
+    width: 40%;
+    padding: 1em;
+    background: orange;
+    border: solid 2px black;
+    font-size: 1.5em;
+}
+button:hover{
+    border: solid 2px white;
+}
+.galleryImg{
+    border: .5em solid black;
+    margin: 1%;
+}
+
+
+.result{
+    background: cyan;
+    color: black;
+    width: 70%;
+    margin: auto;
+    margin-top: 1%;
+    border: solid 3px black;
+    font-size: 3em;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 1.2%;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+    
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+    padding: 1.2%;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    text-decoration: none;
+    padding: 1.2%;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+}
+
+.socials{
+    margin-top: 1%; 
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+}
+
+footer{
+    background: rgb(60,60,60);
+    bottom: 0;
+    width: 100%;
+    margin-top: 2%;
+    position: relative;
+    
+}
+.footer-text{
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;   
+    padding-bottom: 2%;
+}
+
+.footer-text p{
+    margin-bottom: 1%;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.footer-menu ul li{
+    display: inline;
+    margin: 2%;
+
+}
